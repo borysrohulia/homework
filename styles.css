@@ -1,0 +1,15 @@
+h1:hover{
+    color: darkorange;
+}
+
+summary {
+    font-family: sans-serif;
+    font-size: 20px; 
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: green;
+}
