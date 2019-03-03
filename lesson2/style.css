@@ -12,7 +12,7 @@ header{
     display: inline-block;
 }
 form{
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 5%;
     display: inline-block;
     width: 40%;
@@ -39,9 +39,34 @@ input {
 }
 
 /* styles for blocks */
+h2{
+    margin-top: 5%;
+    margin-bottom: 10px;
+    margin-left: 12%;
+    display: inline-block;
+    width: 20%;
+    color: #c2c2c2;
+}
 .left {
     width: 20%;
-    height: 50%;
+    height: 60px;
     background-color: #c2c2c2;
-    margin-left: 15%;
+    margin-left: 12%;
+    margin-bottom: 5px;
+}
+
+#smallimg {
+    border-radius: 100px;;
+    padding: 5px;
+}
+
+p {
+    margin-left: 70px;
+    margin-top: 20px;
+    position: absolute;
+    color: grey;
+}
+
+p:hover {
+    color: red;
 }
