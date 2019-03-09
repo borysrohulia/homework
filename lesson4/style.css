@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    transition: all .1s ease-in;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.center {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.text {
+    text-align: center;
+}
+
+form {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ourlist {
+    display: inline-block;
+}

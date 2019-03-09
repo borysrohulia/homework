@@ -47,6 +47,7 @@ input {
     background-color: whitesmoke;
     border: none;
     color: #ec5a62;
+    margin-left: 15%;
 }
 
 #search:active {
@@ -109,6 +110,10 @@ h2 {
     margin-top: 5%;
     width: 100%;
     display: inline-block;
+}
+
+input::placeholder {
+    color: #c2c2c2;
 }
 
 
