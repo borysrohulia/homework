@@ -1,0 +1,37 @@
+h1 {
+    color: darkslategray;
+    width: 300px;
+}
+
+h1:hover {
+    color: black;
+    border: solid silver 2px;
+    border: outset;
+}
+
+h2 {
+    display: inline-block;
+    color: darkcyan;
+    font-family: cursive;
+}
+
+h2:hover {
+    color: darkblue;
+    border-bottom: solid 2px darkblue;
+}
+
+h3 {
+    display: block;
+    border: solid 2px silver;
+    width: 250px;
+}
+
+h3:hover {
+    border: outset;
+    border-color: silver;
+}
+
+.attention {
+    color: black;
+    font-family: cursive;
+}
