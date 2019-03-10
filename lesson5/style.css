@@ -1,0 +1,136 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(51, 153, 204);
+    border: solid 1em rgb(43, 129, 172);
+}
+
+h1 {
+    color: rgb(240, 251, 254);
+    font-family: Lucida Sans Unicode;
+}
+
+h3 {
+    color: rgb(240, 251, 254);
+    font-family: sans serif;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 0;
+}
+
+.center {
+    width: 60%;
+    margin-left: 20%;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+#cities {
+    border: solid white 0.1em;
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: rgb(240,251,254);
+}
+
+.downrow {
+    color: rgba(240, 251, 254, 0.75);
+}
+
+.city {
+    display: inline-block;
+    border: solid white 0.1em;
+    height: 15%;
+    margin: 0%;
+    padding-top: 1.1em; 
+}
+
+#Lisbon {
+    width: 50%;
+    background-color: rgb(51, 153, 204);
+}
+
+#Paris {
+    width: 25%;
+    background-color: rgb(51,204,204);
+}
+
+#Belgrade {
+    width: 25%;
+    background-color: rgb(157,110,142);
+}
+
+#Moscow {
+    width: 25%;
+    background-color: rgb(199,84,62);
+}
+
+#Telaviv {
+    width: 25%;
+    background-color: rgb(240,113,60);
+}
+
+#Cair {
+    width: 25%;
+    background-color: rgb(255,204,96);
+}
+
+#newYork {
+    width: 25%;
+    background-color: rgb(144,194,154);
+}
+
+#newDelhi {
+    width: 25%;
+    background-color: rgb(99,147,157);
+}
+
+#sanFrancisco {
+    width: 50%; 
+    background-color: rgb(210,114,155);
+}
+
+#tokyo {
+    width: 25%;
+    background-color: rgb(43,144,94);
+}
+
+#sydney {
+    width: 100%;
+    background-color: rgb(107,104,152);
+}
+
+ul:hover li {
+    opacity: 0.6;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+ul li:hover .downrow {
+    color: white;
+}
