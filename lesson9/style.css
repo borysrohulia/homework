@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+
+.desk {
+    border: solid grey 5px;
+    width: 650px;
+    height: 650px;
+    margin: 1em;
+    font-size: 0px;
+}
+
+.field {
+    background-color: black;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 0px;
+    padding: 10px;
+}
+
+.row_1 .field{
+    margin-left: 80px;
+}
+
+.row_2 .field{
+    margin-right: 80px;
+}
+
+.shashka_black {
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 50px;
+}
+
+.shashka_wite {
+    width: 60px;
+    height: 60px;
+    background-color: gold;
+    border-radius: 50px;
+}
