@@ -1,4 +1,4 @@
-h1:hover{
+/*h1:hover{
     color: darkorange;
 }
 
@@ -12,4 +12,88 @@ a {
     font-family: sans-serif;
     font-size: 20px;
     color: green;
+}*/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(206, 23, 84, 0.8);
+    margin-top: 80px;
+}
+
+.lesson {
+    width: 200px;
+    height: 200px;
+    /* background-color: black; */
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.lesson:hover a {
+    color:rgb(206, 23, 84);
+    font-size: 2em;
+}
+
+.lesson:hover {
+    border: solid rgb(206, 23, 84) 3px;
+}
+
+#hw1 {
+    background-image: url('img for index/foto.jpg');
+}
+
+#hw2 {
+    background-image: url('img for index/hw2.png');
+}
+
+#hw3 {
+    background-image: url('img for index/hw3.png');
+}
+
+#hw4 {
+    background-image: url('img for index/hw4.png');
+}
+
+#hw5 {
+    background-image: url('img for index/hw5.png');
+}
+
+#hw7 {
+    background-image: url('img for index/hw7.png');
+}
+
+#hw9 {
+    background-image: url('img for index/hw9.png');
+}
+
+#hw10 {
+    background-image: url('img for index/hw10.png');
+}
+
+#hw11 {
+    background-image: url('img for index/hw11.png');
+}
+
+#hw12 {
+    background-image: url('img for index/hw12.png');
+}
+
+#hw13 {
+    background-image: url('img for index/hw13.png');
 }
