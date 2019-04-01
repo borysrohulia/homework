@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-image: url('main bg.png');
+    padding-top: 10%;
+}
+
+main {
+    background-color: white;
+    padding: 2em;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+}
+
+.headmain {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.headmain img {
+    margin-right: 2em;
+}
+
+.toptext {
+    margin-bottom: 2em;
+}
+
+a {
+    color: rgb(234,53,90);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(234,53,90);
+    text-decoration: none; 
+}
+
+fieldset {
+    margin-bottom: 0.8em;
+}
+
+.persdate input {
+    width: 48%;
+}
+
+#name {
+    margin-right: 0.5em;
+}
+
+input {
+    background-color: rgb(240,240,240);
+    border-radius: 5px;
+    height: 3em;
+    border: none;
+    padding-left: 1em;
+}
+
+#email {
+    width: 98.5%;
+}
+
+#pass {
+    width: 98.5%;
+}
+
+.butt {
+    background-color: rgb(234,53,90);
+    color: white;
+    width: 98.5%;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.button {
+    box-shadow: 0, 5px rgba(234,53,90, 0.5);
+}
+
+p {
+    color: rgb(107,108,112);
+}

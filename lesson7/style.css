@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(35,35,46);
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.logo {
+    margin-left: 45%;
+}
+
+.centhead {
+    margin-left: 37%;
+    margin-top: 5em;
+    color: white;
+}
+
+.centhead h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.headtext {
+    margin-top: 2em;
+}
+
+.headtext p {
+    color: white;
+    text-align: center;
+}
+
+.foothead {
+    margin-left: 48.5%;
+    margin-top: 6em;
+}
+
+main {
+    background: url(fon.png);
+    padding-top: 2em;
+}
+
+.text {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.text p {
+    color: rgb(154,156,157);
+    font-size: 1.2em;
+}
+
+.lasttext {
+    margin-top: 2.5em;
+    margin-left: 42%;
+}
+
+.lasttext h1 {
+    text-transform: uppercase;
+    color: rgb(70,75,79);
+    font-size: 3em;
+}
+
+footer {
+    margin-left: 27%;
+    margin-right: 20%;
+    margin-top: 2em;
+    padding-bottom: 4em;
+}
+
+.column {
+    display: inline-block;
+    width: 30%;
+    /* margin-right: 5%; */
+}
+
+.column h3 {
+    color: rgb(70,75,79);
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.column p {
+    font-size: 0.8em;
+    color: rgb(136,138,139);
+}

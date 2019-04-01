@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Srisakdi';
+    src: url('Srisakdi-Bold.ttf') format(truetype);
+    src: url('Srisakdi-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Proxima Nova Extra Condensed Thin.otf');
+}
+
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-family: 'Proxima Nova'; 
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+}
