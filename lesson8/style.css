@@ -126,3 +126,77 @@ header {
 
 /* style for fourth block */
 
+.backimg {
+    z-index: 1;
+    position: relative;
+    bottom: 4em;
+    left: 10em;
+}
+
+.darkbanner {
+    background-image: url('Rectangle 6.png');
+    position: relative;
+    bottom: 7.7em;
+    height: 450px;
+}
+
+.foto {
+    position: relative;
+    bottom: 18em;
+    right: 25em;
+}
+
+.fourth_h2 {
+    color: rgba(255, 255, 255, 0.548);
+    position: relative;
+    bottom: 10em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.fourth_p {
+    color: rgba(255, 255, 255, 0.548);
+    position: relative;
+    bottom: 13em;
+    text-align: center;
+}
+
+.scroll {
+    position: relative;
+    bottom: 11em;
+    display: flex;
+    margin-left: 48%;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(121,109,121);
+    margin-right: 5px;  
+    z-index: 10;
+}
+
+.circle:hover {
+    background-color: rgb(255,255,255);
+}
+
+/* style for 5 block */
+
+.fifth_h3 {
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 2em;
+    /* height: px; */
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.foods {
+    display: flex;
+}
+
+.img_food {
+    width: 273px;
+}

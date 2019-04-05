@@ -27,6 +27,7 @@ main {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 a {
@@ -96,4 +97,8 @@ a {
 
 #hw13 {
     background-image: url('img for index/hw13.png');
+}
+
+#hw14 {
+    background-image: url('img for index/hw14.png');
 }
