@@ -1,0 +1,278 @@
+// на моем компе смотреь при масштабе 75%
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Lato", bold, sans-serif;
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Lato", bold, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase; 
+}
+
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+.light {
+    color: white;
+}
+
+.ba-header {
+    background-image: url("hero-bg.jpg.png");
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 270px;
+    padding-bottom: 110px;
+    .ba-container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        // align-content: center;
+        justify-content: baseline;
+        text-align: center;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+        .ba-logo {
+            margin-bottom: 90px;
+        }
+        .ba-headtext-big {
+            letter-spacing: 0.16em;
+            margin-bottom: 50px;
+            width: 70%;
+        }
+        .ba-headtext-small {
+            width: 50%;
+            margin-bottom: 200px;
+            line-height: 1.5;
+            letter-spacing: 0.06em;
+            font-size: 15px;
+            font-family: "Lato", regular, sans-serif; 
+        }
+        .scroll:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+// style for about
+
+.block {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    .ba-box {
+        border-top:  none;
+        border-left: solid 2px rgb(60,60,60);
+        border-right: solid 2px rgb(60,60,60);
+        border-bottom: solid 2px rgb(60,60,60);
+        width: 60%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &::before {
+            display: block;
+            content: " ";
+            width: 200px;
+            position: absolute;
+            border: solid 2px rgb(60,60,60);
+            left: 0;
+        }
+        &::after {
+            display: block;
+            content: ' ';
+            width: 200px;
+            position: absolute;
+            border: solid 2px rgb(60,60,60);
+            right: 0;
+        }
+        &__bigtext {
+            position: absolute;
+            top: -10%;
+        }
+        &__smalltext {
+            margin-top: 60px;
+            margin-left: 170px;
+            margin-right: 170px;
+            width: 560px;
+        }
+        .ba-box__smalltextdown {
+            margin-top: 25px;
+            margin-left: 170px;
+            margin-right: 170px;
+            margin-bottom: 30px;
+            width: 440px;
+        }
+    }
+}
+
+// style for services
+.services {
+    background-image: url("services.png");
+    background-size: cover;
+}
+.ba-box__light {
+    border-top:  none;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+    width: 60%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &::before {
+        display: block;
+        content: " ";
+        width: 240px;
+        position: absolute;
+        border: solid 2px white;
+        left: 0;
+    }
+    &::after {
+        display: block;
+        content: ' ';
+        width: 240px;
+        position: absolute;
+        border: solid 2px white;
+        right: 0;
+    }
+}
+.ba-box__servpos {
+    margin-bottom: 55px;
+}
+
+.ba-box__smallservpos {
+    margin-bottom: 50px;
+}
+
+// style for our doing
+
+.what_we_do {
+    padding-bottom: 90px;
+}
+
+.ba-box__doing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.ba-box_bigtext_whatwedo {
+    position: absolute;
+    top:-4%;
+}
+
+.last {
+    margin-bottom: 90px;
+}
+
+.what_we_do {
+    margin-bottom: 115px;
+}
+
+// style for image rows
+
+.imgrows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img_item {
+    text-transform: uppercase;
+    color: white;
+    background-size: cover;
+    padding-left: 40px;
+    padding-top: 150px;
+    // position: absolute;
+    // bottom: 40px;
+    // left: 40px;
+}
+
+.topworkz {
+    background-image: url("topworkz.png");
+    width: 31%;
+    height: 200px;
+    margin-bottom: 10px;
+    // margin-right: 1.5%;
+}
+.joint {
+    background-image: url("joint.png");
+    width: 35%;
+    height: 200px;
+    // margin-right: 1.5%;
+    margin-bottom: 10px;
+}
+.market {
+    background-image: url("market.png");
+    width: 31%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.worktop {
+    background-image: url("worktop.png");
+    width: 31%;
+    height: 200px;
+    // margin-right: 1.5%;
+}
+.lable {
+    background-image: url("lable.png");
+    width: 35%;
+    height: 200px;
+    // margin-right: 1.5%;
+}
+.kyiv {
+    background-image: url("kyiv.png");
+    width: 31%;
+    height: 200px;
+}
+
+.footbutton {
+    background-color: rgb(60,60,60);
+    color: white;
+    margin-bottom: 45px;
+    border: none;
+    height: 60px;
+    width: 390px;
+    margin-top: 20px;
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-left: 100px;
+    padding-bottom: 60px;
+}
+
+.foottext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.logo-foot {
+    margin-right: 35px;
+}
+

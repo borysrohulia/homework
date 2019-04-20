@@ -200,3 +200,30 @@ header {
 .img_food {
     width: 273px;
 }
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.valprice h3 {
+    font-size: 36px;
+}
+
+footer {
+    background-color: rgb(247,247,247);
+    border-top: solid 2px rgb(225,225,225);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(139,139,139);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.site {
+    color: black;
+}

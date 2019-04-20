@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$color-text: #1ab8a0;
+
+p {
+    color: $color-text;
+    b {
+        color: red;
+    }
+}
+
+.toptext {
+    color: gold;
+    &__first {
+        color: green;
+        font-size: 2em;
+    }
+}

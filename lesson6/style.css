@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    /* position: absolute; */
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("Proxima Nova/Proxima Nova Regular.otf");
+    font-family: "proxima nova italic";
+    src: url("Proxima Nova/Proxima Nova Condensed Thin Italic.otf")
+}
+
+body {
+    background-color: rgb(68,78,83);
+    width: 100%;
+    /* height: 64.6%;
+    margin-top: 1.1%; */
+}
+
+.black {
+    background-color: rgb(16,16,16);
+    width: 880px;
+    height: 190px;
+    /* margin-left: 24.6%;
+    margin-top: 4.4%; */
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    position: absolute;
+    top: -95px;
+    right: -70px;
+}
+
+.white {
+    background-color: white;
+    width: 1060px;
+    height: 750px;
+    margin-left: 75px;
+    margin-top: 150px;
+    z-index: 0;
+    position: relative;
+}
+
+.yellow {
+    background-color: rgb(251,193,41);
+    width: 810px;
+    height: 75px;
+    position: absolute;
+    top: 95px;
+    left: 320px;
+    display: flex;
+    padding-left: 40px;
+    /* justify-content: space-; */
+    align-items: center;
+    /* margin-left: 29.4%;
+    /* margin-top: 13.5%; */
+    /* z-index: 1;
+    position: absolute;
+    top: 90px; */ */
+}
+
+.yellow img {
+    margin-right: 30px;
+}
+
+.black h2 {
+    color: white;
+    /* text-decoration: underline; */
+    font-family: "PlayfairDisplay", regular;
+    /* height: 190px; */
+    font-size: 48px;
+    display: block;
+    border-bottom: solid rgb(48,48,48) 3px;
+    padding-bottom: 15px;
+}
+
+.black p {
+    color:rgb(119,119,119);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-family: Proxima Nova, regular;
+    color: rgba(70, 79, 84, 0.76);
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4.38px;
+}
+
+.maintext {
+    margin-left: 68px;
+    border-left: solid 2px rgb(232,235,237);
+    height: 100%;
+    padding-top: 200px;
+    padding-left: 58px;
+}
+
+.maintext h3 {
+    /* margin-top: 200px; */
+    margin-bottom: 50px;
+}
+
+.bigletter {
+    text-transform: uppercase;
+    font-size: 78px;
+    letter-spacing: 0.053em;
+    margin-bottom: 20px;
+}
+
+.maintext h2 {
+    color: rgb(143,143,143);
+    font-family: "proxima nova italic";
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.first-p {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.second-p {
+    font-size: 26px;
+}

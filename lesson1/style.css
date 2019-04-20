@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+p {
+  color: #1ab8a0; }
+  p b {
+    color: red; }
+
+.toptext {
+  color: gold; }
+  .toptext__first {
+    color: green;
+    font-size: 2em; }

@@ -44,6 +44,7 @@ a {
     margin: 5px;
     justify-content: center;
     text-align: center;
+    background-size: cover;
 }
 
 .lesson:hover a {
@@ -75,8 +76,16 @@ a {
     background-image: url('img for index/hw5.png');
 }
 
+#hw6 {
+    background-image: url('img for index/hw6.png');
+}
+
 #hw7 {
     background-image: url('img for index/hw7.png');
+}
+
+#hw8 {
+    background-image: url('img for index/hw8.png');
 }
 
 #hw9 {
@@ -101,4 +110,12 @@ a {
 
 #hw14 {
     background-image: url('img for index/hw14.png');
+}
+
+#hw15 {
+    background-image: url('img for index/hw15.png');
+}
+
+#hw16 {
+    background-image: url('img for index/hw16.png');
 }
