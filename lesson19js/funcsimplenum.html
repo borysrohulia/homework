@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>function simple num</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        function getSimpleNums(a, b) {
+            function getTypeNum(num) {
+                if (num == 1 || num == 2) {
+                    return true;
+                }
+                else {
+                    var arr = [];
+                    for (i = 2; i < num; i++) {
+                        if (num % i !== 0) {
+                            arr.push(true);
+                        }
+                        else {
+                            arr.push(false);
+                        }
+                    }
+                    if (arr.indexOf(false) >= 0) {
+                        return false;
+                    }
+                    else {
+                        return true;
+                    }
+                }
+            }
+            var simpleNums = [];
+            if (a < b) {
+                for (i = a; i <= b; i++) {
+                    if (getTypeNum(i) == true) {
+                        simpleNums.push(i);
+                    }
+                }
+            }
+            else if (a>b) {
+                for (i = b; i <= a; i++) {
+                    if (getTypeNum(i) == true) {
+                        simpleNums.push(i);
+                    }
+                }
+            }
+            else {
+                if (getTypeNum(a) == true) {
+                    simpleNums.push(a);
+                }
+            }
+            document.write(simpleNums);
+        }
+        getSimpleNums(101, 50);
+    </script>
+</body>
+
+</html>

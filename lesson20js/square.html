@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Square</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            function getSquareArr(arr) {
+                function getSquareNum(x) {
+                    return x*x;
+                }
+                var squArr = [];
+                for (i = 0; i < arr.length; i++) {
+                    squArr.push(getSquareNum(arr[i]));
+                }
+                return squArr;      
+            }  
+            
+            var mass = [1,2,3,4];
+            document.write(getSquareArr(mass));
+
+
+        </script>
+    </body>
+</html>
